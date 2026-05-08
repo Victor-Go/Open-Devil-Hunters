@@ -1,0 +1,13 @@
+﻿using Newtonsoft.Json;
+
+namespace Code.Scripts.Src.Utils
+{
+  public static class ObjectCopier
+  {
+    public static T Clone<T>(T source)
+    {
+      var serialized = JsonConvert.SerializeObject(source);
+      return JsonConvert.DeserializeObject<T>(serialized);
+    }
+  }
+}

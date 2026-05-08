@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - RootNode
+  - ExcludeUIFading
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - PlayerSkill
+  - PlayerHurt
+  - EnemyHit
+  - EnemyHurt
+  - EnemySkill
+  - PlayerPickUp
+  - PickableObject
+  - Enemy
+  - PlayerCharacterCollider
+  - CollidableEnvironment
+  - NoEnvCollisionEnemy
+  - Wall
+  - PlayerEnvironmentCollider
+  - CollidablePlayerSkill
+  - PlayerSkillTrigger
+  - LittleBossAndBoss
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3620936555
+    locked: 0
+  - name: Foreground
+    uniqueID: 3277185547
+    locked: 0
+  - name: SceneUI
+    uniqueID: 538762313
+    locked: 0
+  - name: UI
+    uniqueID: 3751476503
+    locked: 0
+  - name: Canvas
+    uniqueID: 1138530897
+    locked: 0
